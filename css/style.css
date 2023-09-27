@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fill_box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;    
+}
+input {
+    height: 42px;
+    width: 320px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+    outline: none;
+}
+input:focus {
+    border: 2px solid #0071E3;
+    
+}
+button {
+    height: 42px;
+    width: 155px;
+    border-radius: 10px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:active {
+    background-color: #1a7fe4;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.line {
+    height: 1px;
+    width: 1000px;
+    background-color: lightgray;
+    margin: 30px auto 20px;
+}
+.result { 
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 30px;
+    width: 900px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+.result p {
+    height: 90px;
+    width: 280px;
+    background-color:#F0F0F0;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden; 
+    position: relative;
+    word-wrap: break-word;
+
+
+}
+.result p img {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+}
+
+.li-active {
+    color: #555;
+    text-decoration: line-through;
+    background: #000;
+}
+
+.DateHistory {
+    /* background-color: red; */
+    color: blue;
+    font-size: 20px;
+    width: 200px;
+    height: 20px;
+    display: flex;
+}
+
+.layer {
+    height: 20px; /* Высота слоя */
+    background-color: aqua; /* */
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #333; /* Параметры рамки */
+    
+   }
+   
